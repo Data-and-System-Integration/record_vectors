@@ -10,17 +10,9 @@ public class vectors_object implements java.io.Serializable {
 
 	private java.util.List<java.lang.String> data_bus_dim;
 	private java.math.BigDecimal data_ppmonth;
-	private java.lang.String dim_name;
+	private java.util.List<java.lang.String> dim_name;
 	private java.util.List<java.math.BigDecimal> dim_levels__level_0;
 	private java.util.List<java.math.BigDecimal> dim_levels__level_1;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_2;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_3;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_4;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_5;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_6;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_7;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_8;
-	private java.util.List<java.math.BigDecimal> dim_levels__level_9;
 
 	public vectors_object() {
 	}
