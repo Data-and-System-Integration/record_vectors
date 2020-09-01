@@ -23,6 +23,13 @@ public class vectors_object implements java.io.Serializable {
 
 	public void setData_bus_dim(java.util.List<java.lang.String> data_bus_dim) {
 		this.data_bus_dim = data_bus_dim;
+		for(String vec_rec : data_bus_dim)
+		{
+		    String[] sub_rec=vec_rec.split(";");
+		    this.dim_name.add(sub_rec[0]);
+		    this.dim_levels__level_0.add(new java.math.BigDecimal(sub_rec[1]));
+		    this.dim_levels__level_1.add(new java.math.BigDecimal(sub_rec[2]));
+		}
 	}
 
 	public java.math.BigDecimal getData_ppmonth() {
@@ -38,5 +45,7 @@ public class vectors_object implements java.io.Serializable {
 		this.data_bus_dim = data_bus_dim;
 		this.data_ppmonth = data_ppmonth;
 	}
+	
+
 
 }
