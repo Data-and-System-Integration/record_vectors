@@ -6,12 +6,45 @@ package com.shubhi.record_vectors;
 
 public class vectors_object implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public vectors_object() {
-    }
+	private java.util.List<java.lang.String> data_bus_dim;
+	private java.math.BigDecimal data_ppmonth;
+	private java.lang.String dim_name;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_0;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_1;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_2;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_3;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_4;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_5;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_6;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_7;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_8;
+	private java.util.List<java.math.BigDecimal> dim_levels__level_9;
 
+	public vectors_object() {
+	}
 
+	public java.util.List<java.lang.String> getData_bus_dim() {
+		return this.data_bus_dim;
+	}
 
+	public void setData_bus_dim(java.util.List<java.lang.String> data_bus_dim) {
+		this.data_bus_dim = data_bus_dim;
+	}
+
+	public java.math.BigDecimal getData_ppmonth() {
+		return this.data_ppmonth;
+	}
+
+	public void setData_ppmonth(java.math.BigDecimal data_ppmonth) {
+		this.data_ppmonth = data_ppmonth;
+	}
+
+	public vectors_object(java.util.List<java.lang.String> data_bus_dim,
+			java.math.BigDecimal data_ppmonth) {
+		this.data_bus_dim = data_bus_dim;
+		this.data_ppmonth = data_ppmonth;
+	}
 
 }
